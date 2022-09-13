@@ -83,8 +83,8 @@ var MyAjax = {"url":"https:\/\/www.galileo.edu\/wp-admin\/admin-ajax.php"};
 <!-- start Simple Custom CSS and JS -->
 <script type="text/javascript">
 
-window.addEventListener('mouseover', initLandbot, { once: true , passive: true});
-window.addEventListener('touchstart', initLandbot, { once: true , passive: true});
+window.addEventListener('mouseover', initLandbot, { once: true });
+window.addEventListener('touchstart', onTouchStart, {passive: true});
 var myLandbot;
 function initLandbot() {
   if (!myLandbot) {
