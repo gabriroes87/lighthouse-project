@@ -1,0 +1,1078 @@
+.faculty, .career {
+    display: flex;
+    padding: 15px 0;
+}
+
+nav.faculty, nav.career {
+    background-color: #212529;
+}
+
+.faculty .container, .career .container {
+    z-index: 997;
+}
+
+nav.faculty .container nav.career .container {
+    align-items: center;
+}
+
+.faculties {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    align-items: center;
+    z-index: 9999;
+
+    flex-wrap: wrap;
+}
+
+.faculties li a {
+   color:#fff;
+   font-weight: bold;
+   padding: 10px 15px;
+   position: relative;
+   font-size: 16px;
+   font-family: Montserrat-Medium, sans-serif;
+   text-transform: uppercase;
+}
+.faculties li a:hover {
+     color: #fff;
+    text-decoration: none;
+    outline: 0;
+    border-bottom: 4px solid #fff;
+}
+
+.faculties li {
+    border-left: solid 1px rgba(255,255,255,.15);
+}
+
+.faculty-name, .faculty-ab,
+.career-name, .career-ab {
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;
+    font-family: Montserrat-Medium, sans-serif;
+}
+
+.faculty-name:hover, .faculty-ab:hover,
+.career-name:hover, .career-ab:hover {
+    color: #fff;
+    text-decoration:none;
+}
+
+.career .container {
+    align-items: center;
+}
+
+/*.fix-faculty {
+    position: fixed!important;
+    top: 80px;
+    z-index: 9999;
+    width: 100%;
+}*/
+
+.affix {
+    top: 80px;
+    width: 100%;
+    z-index: 9998 !important;
+    position: fixed;
+    background-color: #212529;
+    transition: 0.25s ease-in-out;
+    left: 0;
+}
+
+.affix-top {
+    transition: 0.25s ease-in-out;
+}
+
+.faculty.affix, .career.affix {
+    position: relative;
+}
+
+.affix .faculty-name, .affix .career-name {
+    display: none;
+    transition: 0.25s ease-in-out;
+}
+
+.affix .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+.career-ab {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-right: 10px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.career-name {
+    /*border-left: 1px solid rgba(255,255,255,.15);*/
+    
+}
+
+.affix .faculty-ab, .affix .career-ab {
+    display: flex;
+    transition: 0.25s ease-in-out;
+    text-transform: uppercase;
+    font-family: Montserrat-Bold, sans-serif;
+    font-style: normal;
+}
+
+.faculty-ab {
+    display: none;
+}
+
+#mainnav > .menu >  li:hover + .affix {
+    z-index: 9998;
+}
+.submenu-servicesug-mobi li{
+    display: flex;
+}
+.submenu-servicesug-mobi li a {
+    height: auto !important;
+    line-height: 22px !important;
+}
+.menu-services-ug {
+    display: none;
+}
+
+#mainnav > .menu > li:hover > .submenu > li > .submenu > li {
+    border-left: 2px solid #fff;
+    border-bottom: 0;
+    margin-bottom: 5px;
+}
+
+#mainnav > .menu > li:hover > .submenu > li > .submenu > li {
+    margin-left: 0px;
+    width: 95%!important;
+}
+
+#mainnav > .menu > li > .submenu > li > .submenu > li:hover {
+    background-color: #b89a59!important;
+}
+
+#mainnav > .menu > li:hover > .submenu > li > .submenu > li > a {
+    font-size: 14px;
+    line-height: 15px;
+}
+
+#mainnav > .menu > li:hover > .submenu > li > .submenu > li:hover > a {
+    color: #212529;
+}
+#mainnav .menu li .submenu li {
+    width: 25% !important;
+}
+#mainnav .menu .menu-full li .submenu li:nth-last-child(2) {
+    width: 32% !important;
+}
+#mainnav .menu-pile li .submenu li {
+    width: 100% !important;
+}
+#mainnav > .menu > .menu-pile > .submenu > li {
+    width: 100% !important;
+}
+#mainnav > .menu > .menu-full > li > .submenu > li:last-child {
+    margin-top: 20px;
+    width: 32% !important;
+}
+#mainnav > .menu > li:hover > .submenu > li > .submenu > li:last-child {
+    margin-bottom: 15px;
+}
+#mainnav .submenu li a {
+    padding: 8px 8px !important;
+}
+#mainnav .menu .submenu li a {
+    padding: 8px 5px !important;
+}
+#mainnav > .menu > .menu-full.unidades > .submenu > li:last-child {
+    float: right;
+    padding-left: 0;
+    width: 34% !important;
+    margin-left: 0 !important;
+}
+#mainnav > .menu > .menu-full.unidades > .submenu > li.centros {
+    width: 25% !important;
+}
+
+.administracion, .facultad-de-administracion{
+    border-color:#EE1C25 !important;
+}
+.ingenieria-de-sistemas-informatica-y-ciencias-de-la-computacion, .fisicc{
+    border-color:#223883  !important;
+}
+.ingenieria-de-la-construccion, .ficon{
+    border-color:#F82C2B !important;
+}
+.ciencia-tecnologia-e-industria, .facti{
+    border-color:#256895 !important;
+}
+.tecnica, .estec{
+    border-color:#ae275f !important;
+}
+.facultad-icta .icta{
+    border-color:#231f20 !important;
+}
+.ciencias-de-la-salud, .facisa{
+    border-color:#BC5F46 !important;
+}
+.facultad-esdap, .sdap{
+    border-color:#7b7979 !important;
+}
+.recursos-energeticos, .ire {
+    border-color:#f68b28 !important;
+}
+.ciencias-de-la-comunicacion, .facom{
+    border-color:#7c5127 !important;
+}
+.biologia-quimica-y-farmacia, .fabiq{
+    border-color:#61bc4d !important;
+}
+.educacion, .faced{
+    border-color:#6c7c9c !important;
+}
+.educacion-abierta-idea, .idea {
+    border-color:#a54b7c !important;
+}
+.ciencia-y-tecnologia-del-deporte, .factede{
+    border-color:#ef7a1d !important;
+}
+.facultad-facic, .facic{
+    border-color:#f82c2b !important;
+}
+.educacion-continua, .esec {
+    border-color:#a79c9a !important;
+}
+.superior-de-arte, .esa {
+    border-color:#03702c !important;
+}
+.superior-de-diplomacia-y-relaciones-internacionales, .esdri {
+    border-color:#348ddd !important;
+}
+.estudios-en-seguridad, .ies {
+    border-color:#7bafde !important;
+}
+.ciencias-de-la-familia, .icf {
+    border-color:#771919 !important;
+}
+.facultad-phd, .phd {
+    border-color:#213476 !important;
+}
+.facultad-medialab, .medialab{
+    border-color:#3051bc !important;
+}
+.facultad-traduccion-jurada, .traduccion-jurada{
+    border-color:#2BA19C!important;
+}
+.facultad-programa, .programa{
+    border-color:#2c86c4 !important;
+}
+.von-neumann, .ivn{
+    border-color:#58abb6 !important;
+}
+.superior-de-imagen-publica, .esip{
+    border-color:#C6B936 !important;
+}
+.investigacion-en-ciencia-de-la-tierra-y-la-astronomia, .iicta{
+    border-color:#393536 !important;
+}
+.desarrollo-humano, .pdh{
+    border-color:#B3B8D8 !important;
+}
+.actualizacion-para-adultos, .apa{
+    border-color:#018231 !important;
+}
+.ejercito-de-guatemala, .peg{
+    border-color:#2E7EB5 !important;
+}
+.desarrollo-sostenible, .ids {
+    border-color:#7030a0 !important;
+}
+
+.ingenieria-quimica, .facultad-de-ingenieria-quimica{
+    border-color: rgb(0, 147, 138)!important;
+}
+
+.investigacion-de-operaciones, .iio {
+    border-color: #c99d55!important;
+}
+
+.investigacion-de-ciencias-de-la-tierra-y-la-astronomia, .iicta {
+    border-color:#393536 !important;
+}
+
+.cec, .estudios-contemporaneos {
+    border-color: blue !important;
+}
+.facultad-de-administracion{
+    background:#EE1C25 !important;
+}
+.fisicc{
+    background:#223883  !important;
+}
+.ficon{
+    background:#F82C2B !important;
+}
+.facti{
+    background:#256895 !important;
+}
+.estec{
+    background:#ae275f !important;
+}
+.icta{
+    background:#231f20 !important;
+}
+.facisa{
+    background:#BC5F46 !important;
+}
+.esdap{
+    background:#7b7979 !important;
+}
+.ire {
+    background:#f68b28 !important;
+}
+.facom{
+    background:#7c5127 !important;
+}
+.fabiq{
+    background:#61bc4d !important;
+}
+.faced{
+    background:#6c7c9c !important;
+}
+.idea {
+    background:#a54b7c !important;
+}
+.factede{
+    background:#ef7a1d !important;
+}
+.facic{
+    background:#f82c2b !important;
+}
+.esec {
+    background:#a79c9a !important;
+}
+.esa {
+    background:#03702c !important;
+}
+.esdri {
+    background:#348ddd !important;
+}
+.ies {
+    background:#7bafde !important;
+}
+.icf {
+    background:#771919 !important;
+}
+.phd {
+    background:#213476 !important;
+}
+.medialab{
+    background:#3051bc !important;
+}
+.traduccion-jurada{
+    background:#2BA19C!important;
+}
+.programa{
+    background:#2c86c4 !important;
+}
+.ivn{
+    background:#58abb6 !important;
+}
+.esip{
+    background:#C6B936 !important;
+}
+.iicta{
+    background:#393536 !important;
+}
+.pdh{
+    background:#B3B8D8 !important;
+}
+.apa{
+    background:#018231 !important;
+}
+.peg{
+    background:#2E7EB5 !important;
+}
+.ids,
+.instituto-en-desarrollo-sostenible{
+    background:#7030a0 !important;
+}
+
+.facultad-de-ingenieria-quimica {
+    background:rgb(0, 147, 138)!important;
+}
+
+.iio {
+    background: #c99d55!important;
+}
+.cec,
+.estudios-contemporaneros {
+    background: blue !important;
+}
+
+#secundary_menu .menu-ges{
+    /*background:#4372b4;*/
+}
+#secundary_menu .menu-ges a{
+    color:#e4b22e !important;
+    font-weight: bold;
+}
+
+#secundary_menu .menu-classroom a,
+#secundary_menu .menu-gmail a {
+    position: relative;
+    padding-left: 42px;
+}
+
+#secundary_menu .menu-classroom,
+#secundary_menu .menu-gmail {
+    display:flex;
+    align-items: center;
+}
+
+#secundary_menu .menu-classroom a::before {
+    content: '';
+    background: url('../img/google-classroom.png');
+    background-size: 25px 25px;
+    padding: 0 5px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-position: 5px center;
+    height: 32px;
+    width: 32px;
+    top: 5px;
+}
+
+#secundary_menu .menu-gc a {
+        background-image: url(../img/google-classroom.png);
+	background-size: 23px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: transparent!important;
+    top: 6px;
+    height: 32px;
+    width: 40px;
+    overflow: hidden;
+}
+
+#secundary_menu .menu-gmail a {
+    background: url('../img/gmail.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: transparent !important;
+    height: 32px;
+    width: 40px;
+    overflow: hidden;
+    top: 2px;
+}
+
+.footer .menu .nav-item {
+    background: #212327!important; 
+}
+
+#secundary_menu .ges a {
+    background-image: url(../img/ges.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: transparent!important;
+}
+
+.navbar-right.search-toggle.show-search {
+    color: #fff;
+}
+
+#mycareers {
+    display: flex; /* [1] */
+    flex-wrap: nowrap; /* [1] */
+    overflow-x: auto; /* [1] */
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch; /* [4] */
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.img-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 575.98px) { 
+
+    .faculties {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .faculties::-webkit-scrollbar, #mycareers::-webkit-scrollbar {
+        display: none;
+    }
+
+    .faculties li, #mycareers li {
+        flex: 0 0 auto;
+    }
+
+    .faculties li a:active, .faculties li a:hover, .faculties li a:focus  {
+        background: transparent;
+        color: #e0e0e0;
+        border-bottom: solid 3px rgba(255,255,255,.15);
+    }
+
+    #mycareers.nav-stacked > li + li {
+        margin-top: 0;
+    }
+
+    #mycareers li a {
+        border-radius: 0;
+    }
+    .upscrolled #mainnav-mobi {
+    top: 0;
+    }
+    .downscrolled #mainnav-mobi {
+    top: 0;
+    }
+    #mainnav-mobi ul,
+    #mainnav-mobi ol {
+    overflow: auto;
+    }
+    #mainnav-mobi {
+    height: 100%;
+    overflow: scroll;
+    }
+    .menu-services-ug {
+    display: flex;
+    top: 0;
+    z-index: 9999;
+    background: #282b2e;
+    }
+    .menu-services-ug ul {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    float: right;
+    }
+    .menu-services-ug li.asignarme-en-lInea,
+    .menu-services-ug li.pagar-mi-u {
+        display: none;
+    }
+    .menu-services-ug nav {
+    background: #282b2e;
+    width: 100%;
+    }
+    .menu-services-ug nav #secundary_menu li {
+    flex: 0 0 auto;
+    margin: 0 auto;
+    }
+    #mainnav-mobi {
+    top: 40px !important;
+    }
+    .menu-services-ug li a {
+    color: #282b2e !important;
+    }
+    .menu-services-ug li a:before {
+    border-left: solid 1px #282b2e !important;
+    }
+    .menu-services-ug li a.active-services-ug {
+    color: #fff !important;
+    }
+    .menu-services-ug li a.active-services-ug:before {
+    border-left: solid 1px #ffffff26 !important;
+    }
+
+    #mainnav-mobi ul li {
+        border-top: 3px solid #252525;
+    }
+
+    #mainnav-mobi > ul > li > ul > li {
+        background: #1c1c1c!important;
+    }
+
+    #mainnav-mobi > ul > li > ul > li > ul > li {
+        width: 85%;
+        margin-left: auto;
+        border-left: 3px solid #fff;
+        background: #1c1c1c;
+        border-top: 3px solid #252525;
+    }
+
+    #mainnav-mobi > ul > li > ul > li > ul > li a {
+        padding-left: 15px!important;
+    }
+
+
+    #mainnav-mobi ul > li > a {
+        padding: 0 20px!important;
+    }
+
+    #mainnav-mobi > ul > li > ul > li >  a {
+        padding-left: 40px!important;
+    }
+    #mainnav-mobi > ul > li > ul > li,
+    #mainnav-mobi > ul > li > ul > li > ul > li {
+        padding-bottom: 2%;
+        padding-top: 2%;
+    }
+    .header-inner-pages {
+        display: none !important;
+    }
+    .menu-services-ug {
+        border-bottom: 2px solid #b89a59;
+    }
+    .faculty .container.d-flex {
+        line-height: 1.5;
+    }
+    .faculty .faculty-name, .faculty .faculty-ab,
+    .faculty .career-name, .faculty .career-ab {
+        font-size: 15px;
+    }
+    .faculty .menu.faculties{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .faculty .menu.faculties li {
+        border-left: 0;
+        width: 25%;
+    }
+    .faculty .menu.faculties .nav-link {
+        font-size: 10px;
+        padding: 10px 6px;
+        text-align: center;
+        display: block;
+    }
+    .faculty .menu.faculties .nav-link:before {
+        content: " ";
+        border-left: solid 1px rgba(255,255,255,.15);
+        left: 2px;
+        position: absolute;
+        height: 20px;
+        top: 6px;
+    }
+}
+
+
+@media only screen and (max-width : 768px) {
+
+    .faculty .container, .career .container {
+        width: 100%;
+    }
+
+    .faculties li {
+        flex: 1 100%;
+    }
+
+    .faculties li a {
+        width: 100%;
+    }
+
+    .faculties {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .faculties::-webkit-scrollbar, #mycareers::-webkit-scrollbar {
+        display: none;
+    }
+
+    .faculties li, #mycareers li {
+        flex: 0 0 auto;
+    }
+
+    .faculties li a:active, .faculties li a:hover, .faculties li a:focus  {
+        background: transparent;
+        color: #e0e0e0;
+        border-bottom: transparent;
+    }
+
+    .faculties {
+        display: flex; /* [1] */
+        flex-wrap: nowrap; /* [1] */
+        overflow-x: auto; /* [1] */
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch; /* [4] */
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        justify-content: flex-end;
+    }
+
+    #mycareers.nav-stacked > li + li {
+        margin-top: 0;
+    }
+
+    #mycareers li a {
+        border-radius: 0;
+    }
+    .upscrolled #mainnav-mobi {
+    top: 0;
+    }
+    .downscrolled #mainnav-mobi {
+    top: 0;
+    }
+    #mainnav-mobi ul,
+    #mainnav-mobi ol {
+    overflow: auto;
+    }
+    #mainnav-mobi {
+    height:100%;
+    overflow: scroll;
+    }
+    .menu-services-ug li a {
+    color: #282b2e !important;
+    }
+    .menu-services-ug li a.active-services-ug {
+    color: #fff !important;
+    }
+    .menu-services-ug li.asignarme-en-lInea,
+    .menu-services-ug li.pagar-mi-u {
+        display: none;
+    }
+    #mainnav-mobi ul li {
+        border-top: 3px solid #252525;
+    }
+
+    #mainnav-mobi > ul > li > ul > li {
+        background: #1c1c1c!important;
+    }
+
+    #mainnav-mobi > ul > li > ul > li > ul > li {
+        width: 85%;
+        margin-left: auto;
+        border: 0;
+        border-left: 3px solid #fff;
+        background: #1c1c1c;
+        border-top: 3px solid #252525!important;
+    }
+
+    #mainnav-mobi > ul > li > ul > li > ul > li a {
+        padding-left: 15px!important;
+    }
+
+
+    #mainnav-mobi ul > li > a {
+        padding: 0 20px!important;
+    }
+
+    #mainnav-mobi > ul > li > ul > li >  a {
+        padding-left: 40px!important;
+    }
+    .menu-services-ug #secundary_menu .menu-item.nav-item .nav-link:before{
+        border-left: solid 1px #ffffff26 !important;
+    }
+
+    #secundary_menu .menu-classroom a,
+    #secundary_menu .menu-gmail a {
+        position: relative;
+        padding-left: 29px;
+        width: 32px;
+        overflow: hidden;
+        color: transparent!important;
+        height: 40px;
+    }
+
+    .img-mobile img {
+        margin: 5px 0;
+        width: 70%;
+    }
+
+    .faculty.affix, .career.affix {
+        position: fixed;
+        top: 0;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .menu-services-ug {
+    display: flex;
+    top: 0;
+    z-index: 9999;
+    background: #282b2e;
+    }
+    .menu-services-ug ul {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    float: right;
+    }
+    .menu-services-ug nav {
+    background: #282b2e;
+    width: 100%;
+    }
+    .menu-services-ug nav #secundary_menu li {
+    flex: 0 0 auto;
+    }
+    #mainnav-mobi {
+    top: 40px !important;
+    }
+    .menu-services-ug li a {
+    color: #282b2e !important;
+    }
+    .menu-services-ug li a:before {
+    border-left: solid 1px #282b2e !important;
+    }
+    .menu-services-ug li a.active-services-ug {
+    color: #fff !important;
+    }
+    #mainnav-mobi ul li {
+        border-top: 3px solid #252525;
+    }
+
+    #mainnav-mobi > ul > li > ul > li {
+        background: #1c1c1c!important;
+    }
+
+    #mainnav-mobi > ul > li > ul > li > ul > li {
+        width: 90%;
+        margin-left: auto;
+        border-left: 3px solid #fff;
+        background: #1c1c1c;
+        border-top: 3px solid #252525;
+    }
+
+    #mainnav-mobi > ul > li > ul > li > ul > li a {
+        padding-left: 15px!important;
+    }
+
+
+    #mainnav-mobi ul > li > a {
+        padding: 0 20px!important;
+    }
+
+    #mainnav-mobi > ul > li > ul > li >  a {
+        padding-left: 40px!important;
+    }
+
+    .faculties {
+        display: flex; /* [1] */
+        flex-wrap: nowrap; /* [1] */
+        overflow-x: auto; /* [1] */
+        -webkit-overflow-scrolling: touch; /* [4] */
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+
+    .faculties::-webkit-scrollbar, #mycareers::-webkit-scrollbar {
+        display: none;
+    }
+
+    .faculties li, #mycareers li {
+        flex: 0 0 auto;
+    }
+
+    nav.faculty .faculties, nav.career .faculties {
+        flex-basis: auto;
+        justify-content: flex-start;
+        margin-bottom: 0;
+    }
+
+    nav.career .faculties {
+        justify-content: flex-end;
+    }
+
+    nav.faculty .container, nav.career .container {
+        display: flex;
+    }
+
+    .faculty-name, .faculty-ab,
+    .career-name, .career-ab {
+        max-width: 40%;
+        flex-basis: 40%;
+        align-items: center;
+    }
+
+    nav.faculty .faculty-ab {
+        font-size: 14px;
+        max-width: 45%;
+        flex-basis: 45%;
+    }
+
+    #mycareers {
+        display: block;
+        overflow-x: inherit;
+        overflow-y: inherit;
+    }
+
+    .faculty.affix, .career.affix {
+        position: fixed;
+        top: 0;
+    }
+    .faculty .container.d-flex {
+        line-height: 1.3;
+    }
+    .faculty .menu.faculties .nav-link {
+        font-size: 14px;
+    }
+    .faculty .faculty-name, .faculty .faculty-ab,
+    .faculty .career-name, .faculty .career-ab {
+        font-size: 16px;
+    }
+
+    .img-mobile img {
+        margin: 5px 0;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width : 991.98px) {
+    .logo {
+        display: none;
+    }
+
+    #header, .menu-services-ug {
+        display: flex;
+        border-bottom: 1px solid #b89a59;
+    }
+
+    .menu-hover {
+        display: flex!important;
+        align-items: center;
+    }
+
+    .img-mobile {
+        display: block;
+        align-self: center;
+    }
+
+    .menu-hover .btn-menu::after,
+    .menu-hover .btn-menu span {
+        width: 24px;
+    }
+
+    .header.upscrolled {
+        opacity: 0;
+        display: none;
+    }
+
+    .header.upscrolled, .header.downscrolled {
+        display: none;
+    }
+
+    .header-inner-pages {
+        display: none!important;
+    }
+
+    .menu-services-ug {
+        display: flex;
+        top: 0;
+        z-index: 9999;
+        background: #282b2e;
+    }
+    .menu-services-ug ul {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        float: right;
+    }
+    .menu-services-ug nav {
+        background: #282b2e;
+        width: 100%;
+    }
+    .menu-services-ug nav #secundary_menu li {
+        flex: 0 0 auto;
+    }
+
+    .navbar.menu-top {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .faculty-name, .faculty-ab,
+    .career-name, .career-ab {
+        max-width: 40%;
+    }
+    header .header-wrap .nav-wrap nav.mainnav .menu li.menu-item.pagar-mi-u{
+        display: none;
+    }
+
+    #mainnav > .menu > .menu-pile > .submenu {
+        margin-top: 0!important;
+    }
+
+    #mainnav > .menu > li > .submenu {
+        margin-top: 0;
+    }
+
+    header.upscrolled #mainnav > .menu > li > .submenu {
+        margin-top: 0;
+    }
+
+    #mainnav > .menu > .menu-pile > .submenu {
+        top: 102px!important;
+    }
+
+    #mainnav > .menu > li > .submenu {
+        top: 144px!important;
+    }
+    #mainnav > .menu > li:hover > ul.submenu {
+        padding-left: calc((100% - 936px)/2);
+        padding-right: calc((100% - 936px)/2);
+    }
+
+    header.upscrolled #mainnav > .menu > .menu-pile > .submenu {
+        top: 80px!important;
+    }
+
+    header.upscrolled #mainnav > .menu > li > .submenu {
+        top: 80px!important;
+    }
+
+    nav.faculty .faculties, nav.career .faculties {
+        flex-basis: auto;
+        justify-content: flex-end;
+        margin-bottom: 0;
+    }
+
+    .faculty-name, .faculty-ab,
+    .career-name, .career-ab {
+        max-width: 40%;
+        flex-basis: 40%;
+        align-items: center;
+    }
+
+    nav.faculty .faculty-ab {
+        font-size: 14px;
+        max-width: 45%;
+        flex-basis: 45%;
+    }
+
+    #mycareers {
+        display: block;
+        overflow-x: inherit;
+        overflow-y: inherit;
+    }
+
+    .faculty.affix, .career.affix {
+        position: fixed;
+    }
+}
+
+@media only screen and (min-width : 1200px) {
+    .faculty .container, .career .container {
+        /*padding-left: 0;
+        padding-right: 0;*/
+    }
+    header .header-wrap .nav-wrap nav.mainnav .menu li.menu-item.pagar-mi-u{
+        display: none;
+    }
+
+    #mycareers {
+        display: block;
+        overflow-x: inherit;
+        overflow-y: inherit;
+    }
+}
+
+@media only screen and (min-width : 1440px) {
+    .faculty .container, .career .container {
+        /*padding-left: 0;
+        padding-right: 0;*/
+    }
+    header .header-wrap .nav-wrap nav.mainnav .menu li.menu-item.pagar-mi-u{
+        display: none;
+    }
+    #mainnav > .menu > li:hover > ul.submenu {
+        padding-left: calc((100% - 1140px)/2);
+        padding-right: calc((100% - 1140px)/2);
+    }
+}

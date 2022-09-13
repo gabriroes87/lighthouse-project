@@ -1,0 +1,1031 @@
+.w-100 {
+    width: 100%;
+}
+
+.px-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mx-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.spacer-section-mx {
+    margin: 30px auto;
+}
+
+.spacer-section-px {
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.under-white, .under-mustard {
+    border-top: 10px solid;
+    max-width: 100px;
+    margin-top: 1%!important;
+    margin-left: 0;
+}
+
+.under-white {
+    border-top-color:#fff;
+}
+
+.under-mustard {
+    border-top-color: #b89a59;
+}
+.under-black {
+    border-top-color: #000;
+}
+
+.side-search li.active span {
+    color: #fff;
+}
+
+.side-search li span {
+    color: #272b2d;
+}
+
+.flat-accordion .toggle-title {
+    line-height: 20px;
+}
+
+.overlay-ug {
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.promotion-video {
+    background-color:#212529 !important;
+    background: url(../img/background-video.png);
+    background-repeat: repeat;
+}
+
+.promotion-video div:first-child {
+    padding: 30px 0;
+}
+.promotion-video div:first-child  > *{
+    padding: 0 15px;
+}
+
+.promotion-video h2 {
+    font-size:24px;
+    color:#fff;
+    margin: 0;
+    font-weight: inherit;
+}
+.promotion-video-edx h2 {
+    padding-bottom: 0;
+    margin-top: 10px;
+}
+.promotion-video .promotional-video-ug {
+    max-height: 312px !important;
+    background-color: transparent;
+}
+.promotion-video .is-style-squared.btn-more-info {
+    left: 0;
+}
+.promotion-video .is-style-squared.btn-more-info .fa{
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.promotion-video h5 {
+    font-family: Montserrat-Light;
+    font-size:16px;
+    color:#fff;
+    font-weight: inherit;
+}
+
+.promotion-video .wp-block-column {
+    position:relative;
+}
+.promotion-video-edx .promotional-video-ug {
+    height: 100% !important;
+    max-height: 100% !important;
+}
+
+.faculty-calendar-section {
+    background-image: url(../../img/calendar_section.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:311px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.faculty-calendar-section h2 {
+    font-size:36px;
+    text-align:center;
+    text-transform: uppercase;
+    color:#fff;
+}
+
+.btn-calendar {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-top:30px;
+}
+
+.btn-calendar a {
+    color: #fff;
+    background-color: transparent;
+    border-color: #b89a59;
+    border:2px solid #b89a59;
+    padding:10px 15px;
+    font-size:20px;
+    text-transform: uppercase;
+    text-decoration:none;
+}
+
+.btn-calendar a:hover {
+    color: #b89a59;
+    background-color: #fff;
+    border-color: #b89a59;
+}
+.event-info .overlay-top {
+    text-decoration: none !important;
+}
+
+.promotion-video .wp-block-button a {
+    text-decoration:none;
+    border: 1px solid #b89a59;
+}
+
+.promotion-video .wp-block-button a:hover {
+    color: #b89a59;
+    border: 1px solid #b89a59!important;
+    background-color:#fff!important;
+}
+.promotion-video-edx h2 {
+    font-size: 24px;
+    margin: 0;
+}
+.promotion-video-edx h5 {
+    font-size: 16px;
+}
+
+/*cactus theme*/
+.event-item .event-overlay .overlay-top{
+    text-decoration: none;
+}
+
+.breadcrumbs {
+    float: inherit;
+}
+.event-item .event-overlay .overlay-footer
+.topicality-excerpt {
+    line-height: 15px;
+}
+
+.page-title {
+    padding: 0;
+}
+.promotion-video .wp-block-column {
+    margin-bottom: 0;
+}
+.related-course .cr-content .cr-title a{
+    color: #000;
+    text-decoration: none;
+    margin-top: 0;
+    text-decoration: none;
+    font: 13px/13px Montserrat-Bold, sans-serif;
+}
+.related-course .cr-content .cr-title a:hover {
+    color: #b89a59;
+}
+.related-course .cr-content .related-item .cr-start {
+    font-size: 10px;
+    padding-top: 3px;
+    font-family: Montserrat-Light;
+}
+.blog-single .course-detail .course-info {
+    margin-bottom: 0;
+}
+
+.col-contact-section-faculty .cform ol.cf-ol li.cf_li_err, 
+.cform-principal .cform ol.cf-ol li.cf_li_err {
+   background: transparent !important;
+   border-style: none;
+}
+.col-contact-section-faculty div.failure 
+,.cform-principal div.failure {
+   display: none !important;
+}
+.col-contact-section-faculty .cform .cf_li_err span.reqtxt,
+.col-contact-section-faculty .cform .cf_li_err span.emailreqtxt,
+.cform-principal .cform .cf_li_err span.emailreqtxt,
+.cform-principal .cform .cf_li_err span.reqtxt{
+   color: #FFDFDF;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: bold;
+}
+
+.single-course-detail .content-event-ug ul li a {
+    border: 0;
+}
+
+.single-course-detail .content-event-ug ul li a:hover {
+    background-color: transparent;
+}
+
+
+.promotion-career-section .wp-block-image{
+    margin-bottom: 0;
+}
+.promotion-career-section h2 {
+    font-size: 40px;
+}
+
+.single-course-detail .content-content .v1 ul li a {
+    border: 0;
+}
+
+.single-course-detail .content-content .v1 ul li a:hover {
+    background: transparent;
+}
+
+.social-light a {
+    border: 2px solid #eaeaea!important;
+}
+
+.social-light a:hover {
+    color: #fff!important;
+    background-color: #666666!important;
+    border-color: #666666!important;
+}
+
+.related-course h3 {
+    margin-top: 0;
+}
+.list-post-ug .content-pad .item-content .title a,
+.list-post-ug .content-pad .item-content .item-title a{
+    color: #000;
+    text-decoration: none;
+}
+.list-post-ug .content-pad .item-content .title a:hover,
+.list-post-ug .content-pad .item-content .item-title a:hover {
+    color: #b89a59;
+}
+.list-post-ug .content-pad .item-content p {
+    color: #000;
+    font-size: 16px;
+    font-family: Montserrat-Light, sans-serif;
+}
+.list-post-ug .content-pad .item-content .title,
+.list-post-ug .content-pad .item-content .item-title {
+    font-size: 21px;
+    margin-top: 10px;
+}
+.sidebar-ugn .under-black, .sidebar-ugn .under-white,
+.sidebar-ugn .under-mustard, .sidebar-ugn .under-white-post {
+    text-align: left;
+}
+.iframe-acerca-de  {
+    max-width: 100% !important;
+}
+.iframe-acerca-de div iframe {
+    width: 100%;
+}
+.mensaje-rector.container-full-ug figure.img-msg-rector{
+    margin: 0 auto;
+}
+.mensaje-rector.container-full-ug .img-msg-rector img{
+    border-radius: 50%;
+}
+.banner-acerca-de {
+    background-position: top center;
+}
+.banner-acerca-de p {
+	font-family: Montserrat-Bold, sans-serif !important;
+	font-size: 36px !important;
+	margin: 0 auto !important;
+}
+
+.mision-vision-objetivo-ug .under-mustard {
+    border-top: 5px solid #b89a59;
+    max-width: 200px;
+}
+.mision-vision-objetivo-ug .wp-block-column .wp-block-column:last-child {
+	border-right: 0;
+}
+.mision-vision-objetivo-ug .wp-block-column .wp-block-column h1.title{
+	color: #fff;
+}
+.mision-vision-objetivo-ug .wp-block-column .wp-block-column p {
+	color: #fff;
+}
+.acerca-de-revista h1 {
+	color: #fff;
+}
+.acerca-de-revista p {
+	color: #fff !important;
+}
+.acerca-de-revista .is-style-squared .wp-block-button__link{
+	border: 2px solid #fff !important;
+	text-decoration: none;
+}
+.acerca-de-revista .is-style-squared .wp-block-button__link:hover{
+	background:#fff;
+	color: #000 !important;
+}
+
+/*containers full*/
+
+.container-full-ug {
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+.container-full-ug .wp-block-column {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ninja-contact-section {
+    padding: 0;
+}
+
+.ninja-contact-section .wp-block-column {
+    padding: 30px;
+}
+
+.ninja-contact-section .wp-block-column:first-child {
+    background: #444b50;
+    color: #fff;
+}
+
+.ninja-contact-section .wp-block-column:last-child {
+    background: #747a7d;
+}
+
+.ninja-contact-section .nf-before-form-content {
+    display: none;
+}
+
+.ninja-contact-section .nf-error-msg,
+.ninja-contact-section .ninja-forms-req-symbol {
+    color: #fff;
+    font-family: Montserrat-Medium, sans-serif;
+}
+
+.ninja-contact-section .nf-field-element input,
+.ninja-contact-section .nf-field-element textarea {
+    font-size: 16px;
+    font-family: Montserrat-Light,sans-serif;
+    color: #000;
+    border-radius: 5px;
+}
+
+.ninja-contact-section .submit-container .nf-field-element input {
+    width: 100%;
+}
+
+.ninja-contact-section .nf-field-label label {
+    font-size: 16px;
+    font-family: Montserrat-Light,sans-serif;
+    font-weight: inherit;
+    color: #fff;
+}
+
+.ninja-contact-section .nf-response-msg,
+.ninja-contact-section .nf-response-msg span {
+    font-size: 16px!important;
+    font-family: Montserrat-Light,sans-serif!important;
+    font-weight: inherit!important;
+    color: #fff!important;
+}
+
+.ninja-contact-section input[type=button] {
+    background: #b89a59!important;
+    border: 2px solid #b89a59!important;
+    color: #fff;
+    float: left;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    line-height: 16px;
+}
+
+.ninja-contact-section input[type=button]:hover {
+    background: #fff!important;
+    border: 2px solid #b89a59!important;
+    color: #b89a59;
+}
+
+.ninja-contact-section .nf-field-element textarea {
+    min-height: 50px;
+    max-height: 200px;
+    height: auto;
+    min-width: 100%;
+}
+
+.ninja-contact-section .contact-section-faculty {
+    max-height: 330px;
+    padding: 0;
+}
+
+.ninja-contact-section .contact-section-faculty h2 {
+    font-size: 16px;
+}
+.ninja-contact-section .nf-form-title {
+    display: none;
+}
+
+.ninja-contact-section .nf-field-container {
+    margin-bottom: 10px;
+}
+
+.container-full-ug .wp-block-column {
+    margin-bottom: 0;
+}
+
+.container-full-ug .container .wp-block-column > ul,
+.container-full-ug .container .wp-block-column > ol {
+    padding-left: 2em;
+    padding-right: 15px;
+}
+
+.container-full-ug .container .wp-block-column {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container-full-ug .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn-blue .wp-block-button__link {
+    border: 2px solid #0057bf;
+    color: #0057bf;
+    background: transparent;
+    text-decoration: none;
+    font-family: Montserrat-Medium, sans-serif;
+}
+
+.btn-blue .wp-block-button__link:hover {
+    border: 2px solid #0057bf;
+    color: #fff;
+    background-color: #0057bf;
+}
+
+.btn-mustard .wp-block-button__link {
+    border: 2px solid #b89a59;
+    color: #000;
+    background: transparent;
+    text-decoration: none;
+    font-family: Montserrat-Medium, sans-serif;
+}
+
+.btn-mustard .wp-block-button__link:hover {
+    border: 2px solid #b89a59;
+    color: #fff;
+    background-color: #b89a59;
+}
+
+.btn-mustard-dark .wp-block-button__link {
+    border: 2px solid #b89a59;
+    color: #fff;
+    background: #b89a59;
+    text-decoration: none;
+    font-family: Montserrat-Medium, sans-serif;
+}
+
+.btn-mustard-dark .wp-block-button__link:hover {
+    border: 2px solid #b89a59;
+    color: #b89a59;
+    background-color: #fff;
+}
+
+.color-white {
+    color: #fff!important;
+    list-style: inherit;
+}
+
+.color-black {
+    color: #000!important;
+}
+
+.bullets-ug {
+    list-style: inherit;
+}
+
+.padding-section {
+    padding-top: 30px!important;
+    padding-bottom: 30px!important;
+}
+
+/*fonts*/
+
+.size-ug-minum {
+    font-size: 12px;
+}
+
+.size-ug-normal {
+    font-size: 16px;
+}
+
+.size-ug-medium {
+    font-size: 24px
+}
+
+.size-ug-large {
+    font-size: 36px;
+}
+
+/*colors background for section*/
+
+.background-gray {
+    background-color: #F6F6F6;
+}
+
+.background-gray-dark {
+    background-color: #f1f1f1;
+}
+
+.background-white {
+    background-color: #fff;
+}
+
+.background-white {
+    color: #000;
+}
+
+.background-blue {
+    background-color: #0057bf;
+}
+
+.background-dark {
+    background-color: #212529;
+}
+
+.background-form {
+    background-color: #444B50;
+    color: #fff;
+}
+
+.background-social {
+    background-color: #747A7D;
+    color: #fff;
+}
+
+.background-social p {
+    color:#fff;
+}
+
+/* Video acerca de galileo*/
+.video-acerca-de-galileo {
+    height: 642px;
+    overflow: hidden;
+    position: relative;
+    background: #000;
+}
+.video-acerca-de-galileo video{
+    width: 100%;
+}
+.video-acerca-de-galileo .content-video {
+    position: absolute;
+    margin: 0 auto;
+    top: 70%;
+    vertical-align: middle;
+    align-items: center;
+    width: 100%;
+}
+.video-acerca-de-galileo .content-video .text-video {
+    color: #fff;
+    font-family: Montserrat-Bold, sans-serif;
+    margin: 0;
+}
+.video-acerca-de-galileo > .overlay-dark {
+    position: absolute;
+    background-color: rgba(0,0,0,.7);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/*end container full*/
+
+/* Tickets */
+.content-title-ticket {
+    display: none;
+}
+.content-add-ticket {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* END Tickets */
+.content-100 {
+    line-height: inherit !important;
+}
+.content-100::before {
+    content: none !important;
+}
+
+.badge.badge-ug {
+    padding: 8px 10px;
+    background-color: #282b2e;
+}
+
+/* Forms Mailchimp */
+.ninja-contact-section #mc_embed_signup {
+    background: transparent !important;
+}
+
+.ninja-contact-section #mc_embed_signup form {
+    padding: 0 !important;
+}
+
+.ninja-contact-section #mc_embed_signup form h2 {
+    font-family: Montserrat-Bold,sans-serif;
+    color: #fff;
+}
+
+.ninja-contact-section #mc_embed_signup form .mc-field-group {
+    width: 100% !important;
+    padding-bottom: 0 !important;
+}
+
+.ninja-contact-section #mc_embed_signup form .mc-field-group.size1of2 {
+    margin-right: 0;
+}
+
+.ninja-contact-section #mc_embed_signup form .mc-field-group .datefield span input.datepart{
+    width: 8% !important;
+}
+
+.ninja-contact-section #mc_embed_signup form .mc-field-group select {
+    width: 100% !important;
+    border-radius: 5px;
+    margin-bottom: 20px !important;
+}
+
+.ninja-contact-section #mc_embed_signup form .indicates-required,
+.ninja-contact-section #mc_embed_signup form .indicates-required .asterisk {
+    color: #fff;
+    font-family: Montserrat-Light,sans-serif;
+}
+
+.ninja-contact-section #mc_embed_signup form .mc-field-group .datefield,
+.ninja-contact-section #mc_embed_signup form .mc-field-group label,
+.ninja-contact-section #mc_embed_signup form .mc-field-group strong {
+    font-size: 16px;
+    font-family: Montserrat-Light,sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.ninja-contact-section #mc_embed_signup form .mc-field-group label span.asterisk,
+.ninja-contact-section #mc_embed_signup form .mc-field-group.input-group strong span.asterisk {
+    color: #fff;
+}
+
+.ninja-contact-section #mc_embed_signup form .mc-field-group input {
+    font-size: 16px;
+    font-family: Montserrat-Light,sans-serif;
+    color: #000;
+    border-radius: 5px;
+}
+
+.ninja-contact-section #mc_embed_signup form .mc-field-group.input-group label {
+    font-weight: inherit !important;
+    margin-left: .5em;
+}
+
+.ninja-contact-section #mc_embed_signup form input[type=submit].button {
+    background: #b89a59!important;
+    border: 2px solid #b89a59 !important;
+    color: #fff !important;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.ninja-contact-section #mc_embed_signup form input[type=submit].button:hover {
+    background: #fff !important;
+    color: #b89a59 !important;
+    border: 2px solid #b89a59 !important;
+}
+
+.ninja-contact-section #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+    display: none !important;
+}
+
+.ninja-contact-section #mc_embed_signup form #mce-responses div#mce-success-response{
+    color: #fff;
+}
+
+.post-content .post-password-form input[type=submit] {
+    padding: 0 20px 9px 20px;
+    color: #fff;
+    border: 0;
+}
+
+.promotional-video-ug .flat-video-fancybox .overlay{
+    background-image: none !important;
+    background-size: cover;
+}
+
+.promotion-video .background-video-ug {
+    margin: 0;
+    min-height: auto;
+    padding: 0 !important;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+
+.btn-banner-career a i:before {
+    content: "";
+}
+.btn-banner-career a:after {
+    font-family: 'Font Awesome 5 Free';
+    content: " \f105";
+    font-weight: 900;
+}
+
+
+@media only screen and (max-width: 575.98px) { 
+    .grid-item-event-color .event-item .event-overlay {
+        position: relative;
+    }
+
+    .promotion-video .wp-block-column:last-child {
+        margin-left: 0;
+    }
+
+    .iframe-acerca-de div iframe{
+        margin: 0 auto;
+    }
+    .mision-vision-objetivo-ug .wp-block-column .wp-block-column{
+        border-right: 0;
+    }
+    .banner-acerca-de p {
+        margin: 0 auto !important;
+    }
+    .space-msg-rector {
+        display: none;
+    }
+    .container-full-ug  {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .promotion-video-edx .promotional-video-ug {
+        height: 312px !important;
+    }
+
+    .mision-vision-objetivo-ug {
+        padding-bottom: 15px;
+    }
+
+    /* Video Acerca de Galileo*/
+    .video-acerca-de-galileo {
+        height: 180px;
+    }
+    .video-acerca-de-galileo .content-video {
+        top: 20%;
+        padding-left: 15px;
+    }
+    .video-acerca-de-galileo .content-video .text-video {
+        font-size: 30px;
+    }
+
+    /* Mailchimp */
+    .ninja-contact-section #mc_embed_signup form .mc-field-group .datefield span input.datepart{
+        width: 14% !important;
+    }
+
+    .post-content .post-password-form label{
+        width: 50%;
+    }
+
+    .post-content .post-password-form input[type="password"]{
+        margin-bottom: 0;
+    }
+
+    .promotion-video .background-video-ug {
+        background-size: contain;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) { 
+    .grid-item-event-color .event-item .event-overlay {
+        position: relative;
+    }
+    .promotion-video .wp-block-button {
+        position: unset;
+        bottom: 0;
+        right: 0;
+    }
+    .promotion-video {
+        display:block;
+    }
+    .promotion-video .wp-block-column:last-child {
+        margin-left: 0;
+    }
+    .iframe-acerca-de div iframe{
+        margin: 0 auto;
+        height: 100%;
+    }
+    .iframe-acerca-de div iframe{
+        margin: 0 auto;
+    }
+    .mision-vision-objetivo-ug .wp-block-column .wp-block-column{
+        border-right: 0;
+    }
+    .banner-acerca-de p {
+        margin: 0 auto !important;
+    }
+    .space-msg-rector {
+        display: none;
+	}
+    .promotion-video-edx .promotional-video-ug {
+        height: 312px !important;
+    }
+    /* Video Acerca de Galileo*/
+    .video-acerca-de-galileo {
+        height: 300px;
+    }
+    .video-acerca-de-galileo .content-video {
+        top: 24%;
+        padding-left: 15px;
+    }
+
+    .promotion-video .background-video-ug {
+        background-size: contain;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .promotion-video .wp-block-button {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .promotion-video-edx .wp-block-button {
+        position: static;
+        text-align: right;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .d-md-block {
+        display: block;
+        visibility: visible;
+    }
+
+    .collapse {
+        display: none;
+        visibility: hidden;
+    }
+    .promotion-video {
+        display:block;
+    }
+    .promotion-video .wp-block-button {
+        position:unset;
+    }
+    .promotion-video .wp-block-column {
+        margin-left: 0;
+    }
+    .iframe-acerca-de {
+        margin: 0 auto;
+    }
+    .iframe-acerca-de div iframe{
+        margin: 0 auto;
+    }
+    .mision-vision-objetivo-ug .wp-block-column .wp-block-column{
+        border-right: 0;
+    }
+    .banner-acerca-de p {
+        margin: 0 auto !important;
+    }
+    .space-msg-rector {
+		display: none;
+	}
+    .promotion-video-edx .wp-block-button.is-style-squared {
+        position: static;
+    }
+    .promotion-video-edx .promotional-video-ug {
+        height: 312px !important;
+    }
+    .promotion-video .wp-block-column:first-child > * {
+        padding-left: 3%;
+    }
+    /* Video Acerca de Galileo*/
+    .video-acerca-de-galileo {
+        height: 430px;
+    }
+    .video-acerca-de-galileo .content-video {
+        top: 32%;
+        margin-left: 3%;
+    }
+
+    /* Mailchimp */
+    .ninja-contact-section #mc_embed_signup form .mc-field-group .datefield span input.datepart{
+        width: 14% !important;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .d-lg-block {
+        display: block;
+        visibility: visible;
+    }
+    .banner-acerca-de p {
+        margin: 0 auto !important;
+    }
+    .promotion-video .wp-block-column:first-child > * {
+        padding-left: 35px;
+    }
+    .ninja-contact-section .phone-container,
+    .ninja-contact-section .email-container {
+        display: inline-block;
+        width: 49.5%;
+        vertical-align: top;
+    }
+
+    .ninja-contact-section .email-container {
+        padding-right: 15px;
+    }
+
+    /* Video Acerca de Galileo*/
+    .video-acerca-de-galileo {
+        height: 550px;
+    }
+    .video-acerca-de-galileo .content-video {
+        top: 35%;
+        margin-left: 3%;
+    }
+
+    /* Mailchimp */
+    .ninja-contact-section #mc_embed_signup form .mc-field-group .datefield span input.datepart{
+        width: 14% !important;
+    }
+}
+
+@media only screen and (min-width : 1200px) { 
+    .d-xl-block {
+        display: block;
+        visibility: visible;
+    }
+    .promotion-video .wp-block-column:first-child > * {
+        padding-left: 112px
+    }
+
+    .ninja-contact-section .phone-container,
+    .ninja-contact-section .email-container,
+    .ninja-contact-section .recaptcha-container,
+    .ninja-contact-section .submit-container {
+        display: inline-block;
+        width: 49.5%;
+        vertical-align: top;
+    }
+
+    .ninja-contact-section .recaptcha-container .g-recaptcha >div,
+    .ninja-contact-section .recaptcha-container .g-recaptcha >div iframe {
+        width: 100%!important;
+    }
+
+    .ninja-contact-section .recaptcha-container,
+    .ninja-contact-section .submit-container {
+        vertical-align: bottom;
+    }
+
+    .ninja-contact-section .email-container,
+    .ninja-contact-section .recaptcha-container {
+        padding-right: 15px;
+    }
+
+    /* Video acerca de galileo*/
+    .video-acerca-de-galileo .content-video {
+        top: 40%;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1200px), (max-width: 1100px) and (min-width: 992px), (max-width: 880px) {
+    .thumbnail-overflow {
+        left: 0;
+    }
+}

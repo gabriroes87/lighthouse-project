@@ -1,0 +1,62 @@
+/* GENERAL */
+.wp-block-columns {
+  margin-bottom: 0;
+}
+
+/* Single Careers*/
+.btn-banner-career p {
+  line-height: 1.25;
+  font-size: 2em;
+}
+
+.wp-block-embed__wrapper iframe {
+  max-width: 100%;
+}
+
+/* HOME */
+.promotion-video .btn-more-info {
+  margin-bottom: 25px;
+}
+
+/* PROGRAM CAREER */
+.program-career p {
+  text-align: center !important;
+}
+
+.btn-banner-career {
+  justify-content: flex-start;
+}
+
+.btn-banner-career p {
+  color: #fff !important;
+}
+
+@media only screen and (max-width: 767.98px) {
+  .btn-banner-career {
+    min-height: 200px;
+    max-height: 200px;
+  }
+
+  .btn-banner-career p {
+    width: 100%;
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .btn-banner-career p {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .btn-banner-career p {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .btn-banner-career p {
+    max-width: 580px;
+  }
+}
