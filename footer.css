@@ -1,0 +1,126 @@
+.footer-social {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.img-footer {
+    margin: 2% auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.section-inner>.row {
+    display: flex;
+}
+footer #bottom-nav {
+    border-bottom: 10px solid #916d29 !important;
+}
+.title_study_in_galileo {
+    font-family: Montserrat-Regular, sans-serif !important;
+    color: #fff !important;
+}
+.ftitle_shortcuts {
+    font-family: Montserrat-Regular, sans-serif !important;
+    color: #fff !important;
+}
+.ftitle_student{
+    font-family: Montserrat-Regular, sans-serif !important;
+    color: #fff !important;
+}
+.ftitle_contact {
+    font-family: Montserrat-Regular, sans-serif !important;
+    color: #fff !important;
+}
+.mfstudy_in_galileo li a{
+    font-family: Montserrat-Light, sans-serif !important;
+}
+.mfshortcuts {
+    font-family: Montserrat-Light, sans-serif !important;
+    color: #fff !important;
+}
+.mfstudent {
+    font-family: Montserrat-Light, sans-serif !important;
+    color: #fff !important;
+}
+.mfcontact {
+    font-family: Montserrat-Light, sans-serif !important;
+    color: #fff !important;
+}
+.title_copyright {
+    font-family: Montserrat-Medium, sans-serif !important;
+    color: #fff !important;
+    font-size: 20px !important;
+}
+
+.footer .widget .widget-title {
+    font-size: 18px;
+}
+
+.footer .mfcontact p {
+    margin: 0;
+}
+
+.logo-foo {
+    align-items: center;
+}
+
+.logo-foo img {
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 575.98px) {
+    footer .normal-sidebar .widget {
+	padding: 30px 0 0 0;
+    }
+    footer .normal-sidebar .widget .widget-inner {
+	padding: 0;
+    }
+    .d-flex {
+        display: block;
+    }
+    .section-inner>.row {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) { 
+    .section-inner>.row {
+        display: block;
+    }
+    .d-flex {
+        display: block;
+    }
+    .section-inner>.row {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .d-flex {
+        display: block;
+    }
+
+    .section-inner>.row {
+        display: block;
+    }
+    
+    footer .normal-sidebar .widget {
+	padding: 30px 0 0 0;
+    }
+    footer .normal-sidebar .widget .widget-inner {
+	padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    /*.d-flex {
+        display: block;
+    }
+
+    .section-inner>.row {
+        display: block;
+    }*/
+}

@@ -1,0 +1,279 @@
+.carousel-control-prev-icon {
+    background-image: url("../img/left-l.png")!important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("../img/right-l.png")!important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 16px!important;
+    height:27px!important;
+}
+
+.normal-c .carousel-inner {
+    background-color: #000;
+}
+
+.normal-c .carousel-indicators li {
+    border-radius: 50%;
+    width:auto;
+    padding:0.5vw;
+    width: 8px;
+    height: 8px;
+    margin: 5px 6px;
+    border-radius: 50%;
+    background: #d0d0d0;
+    border: 0;
+    opacity: 1;
+}
+
+.normal-c .carousel-indicators .active {
+    background-color:#46a5e5;
+}
+
+.normal-c .carousel-item img {
+    /*opacity:0.7;
+    height: 363px !important;*/
+}
+
+.normal-c .carousel-item .carousel-caption {
+    text-align:left;
+    width:343px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 0!important;
+    justify-content: center;
+}
+.carousel_career_promotion {
+    /*height: 363px !important;*/
+}
+
+.normal-c .carousel-item span {
+    width:8px!important;
+    height:10px!important;
+}
+
+.normal-c .carousel-caption a {
+    color: #fff;
+    border-radius:0;
+    font-family: Montserrat-Medium, sans-serif;
+    margin-top:1.5%;
+    font-size:20px;
+    z-index: 99999 !important;
+}
+.normal-c .carousel-caption a.btn {
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
+.normal-c .carousel-caption h5 {
+    font-family: Montserrat-Bold, sans-serif;
+    line-height:1em;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.normal-c .carousel-caption p {
+    margin-top:1rem;
+    line-height:1em;
+    font-family: Montserrat-Medium, sans-serif;
+}
+
+.normal-c .card-image {
+    opacity: 0.7;
+}
+
+.img-promocion{
+    /*height: 363px !important;*/
+    width: 100%;
+}
+.glyphicon-chevron-right:before{
+    content: "" !important;
+}
+.glyphicon-chevron-left:before{
+    content: ""!important;
+}
+
+/********************************/
+/*          Carousel Text       */
+/********************************/
+.caption-promotion {
+	position: absolute;
+	bottom: 60px;
+	right: 60px;
+	left: 60px;
+	padding: 30px;
+	background-color: rgba(0,0,0,.5);
+	box-sizing:border-box;
+	transition: 0.5s;
+}
+.caption-promotion h2 { 
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: xx-large;
+	transition: 0.5s;
+}
+.caption-promotion p { 
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: medium;
+	transition: 0.5s;
+}
+
+.btn-promocion{
+    /*background: #b89a59 !important;*/
+    background-image: linear-gradient(to right, rgba(184,154,89,1), rgba(236,203,135,0.75));
+    color: #fff;
+    /*border: 2px solid #b89a59 !important;*/
+    font-size: 20px;
+    border: 0;
+}
+.title-promocion{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 35%;
+    color: white;
+    font-family: Montserrat-Bold;
+    padding-left: 15px; 
+    font-size: 24px;
+}
+.btn-promocion:hover{
+    background: #fff !important;
+    color: #b89a59 !important;
+    box-shadow: inset 0 0 0px 2px #b89a59;
+}
+
+.carousel_career_promotion:hover .card-image img {
+    opacity: 0.7;
+    transition: all .2s;
+}
+
+#promocion-carreras ol.carousel-indicators {
+    bottom: 0;
+}
+
+@media only screen and (max-width: 575.98px) {
+
+    .normal-c .carousel-item .carousel-caption {
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .normal-c .carousel-inner img {
+        background-color: lightblue;
+    /*edgar_ges:Agrego linea para ampliar area a mostrar.*/
+      
+    }
+
+    .normal-c .carousel-item .carousel-caption {
+        bottom: 20%!important;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .normal-c .carousel-inner img {
+	background-color: lightblue;
+    }
+
+    .normal-c .carousel-caption h5 {
+        font-size: 18px;
+    }
+
+    .normal-c .carousel-item .carousel-caption {
+        bottom: 20%!important;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .normal-c .carousel-inner img {
+	background-color: lightblue;
+    }
+
+    .normal-c .card-image {
+	/*edgar_ges:Comento esta secciÃ³n para que no delimite un tamaÃ±o fijo.*/
+	
+    }
+
+    .normal-c .carousel-caption h5 {
+        font-weight: bold;
+        font-size:24px;
+        max-width:100%;
+    }
+
+    .normal-c .carousel-caption p {
+        font-size: 20px;
+    }
+
+    .normal-c .carousel-item .carousel-caption {
+        margin-left: 3%;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .normal-c .carousel-inner img {
+	background-color: lightblue;
+    }
+
+    .normal-c .card-image {
+	max-height:363px;
+    }
+
+    .normal-c .carousel-caption h5 {
+        font-weight: bold;
+        font-size:24px;
+        max-width:100%;
+    }
+
+    .normal-c .carousel-caption p {
+        font-size: 20px;
+    }
+
+    .normal-c .carousel-item .carousel-caption {
+        margin-left: 37px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .normal-c .carousel-inner img {
+	    background-color: lightblue;
+	    min-height:363px;
+        max-height:363px;
+    }
+
+    .normal-c .card-image {
+	    max-height:363px;
+    }
+
+    .normal-c .carousel-caption h5 {
+        font-weight: bold;
+        font-size:24px;
+        max-width:100%;
+    }
+
+    .normal-c .carousel-caption p {
+        font-size: 20px;
+    }
+    .btn-promocion{
+	/*padding: 1.5% !important;*/
+    }
+
+    .normal-c .carousel-item .carousel-caption {
+        margin-left: 112px;
+    }
+}

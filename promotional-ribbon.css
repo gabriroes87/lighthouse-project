@@ -1,0 +1,201 @@
+.promotional-ribbon {
+    background-image: -webkit-linear-gradient(right, #54969A, #664A96 );
+    background-image: linear-gradient(to left, #54969A, #664A96 );
+    background-image: -ms-linear-gradient(left, #54969A, #664A96 );
+    background-color: #212529;
+    background-position: center center;
+    height: auto;
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+}
+.promotional-ribbon.ribbon-secundary {
+    background-image: -webkit-radial-gradient(circle, #54969A, #664A96 );
+    background-image: radial-gradient(circle, #54969A, #664A96 );
+    background-image: -ms-radial-gradient(circle, #54969A, #664A96 );
+    background-color: #212529;
+    background-position: center center;
+    height: auto;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.promotional-ribbon.ribbon-secundary .title-ribbon{
+    padding: 1% 16px;
+}
+.promotional-ribbon.ribbon-secundary .std-card {
+    padding-left: 0;
+    background-image:   linear-gradient(#fff, #fff),
+                        linear-gradient(#fff, #fff),
+                        linear-gradient(#fff, #fff),
+                        linear-gradient(#fff, #fff),
+                        linear-gradient(#4682b400, #4682b400);
+    background-repeat: no-repeat;
+    background-size: 50% 4px, 4px 50%, 100% 4px, 4px 100%, calc(100% - 8px) calc(100% - 8px);
+    background-position: left bottom, right top, left top, top left, 4px 4px;
+    padding: 2%;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.promotional-ribbon.ribbon-secundary .btn-ribbon a {
+    font-family: Montserrat-Medium, sans-serif;
+    border-radius: 0;
+    padding: 12px 24px;
+    font-size: 18px;
+    background-image: linear-gradient(to right, rgba(184,154,89,1), rgba(236,203,135,0.75));
+}
+.promotional-ribbon.ribbon-secundary .btn-ribbon a:hover {
+    border: 2px solid #b89a59;
+    background: #fff;
+    color: #b89a59;
+}
+
+.promotional-ribbon .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 16px 0;
+}
+
+.promotional-ribbon .container > div {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+}
+
+.title-ribbon {
+    padding:  0 16px;
+    text-align: center;
+}
+
+.title-ribbon p {
+    font-size: 26px;
+    color: #fff;
+    font-family: Montserrat-Medium, sans-serif;
+}
+
+.title-ribbon strong {
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.btn-ribbon {
+    padding: 0 16px;
+    text-align: center;
+    margin: 16px auto;
+}
+
+.btn-ribbon a {
+    background-image: -webkit-linear-gradient(right, #fb7703, #f5a637 );
+    background-image: linear-gradient(to left, #fb7703, #f5a637 );
+    color: #fff;
+    text-decoration: none;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 13px;
+    padding: 16px;
+    border-radius: 25px;
+}
+
+.btn-ribbon a:hover {
+    background: #fff;
+    color: #fb7703;
+    border: 2px solid #fb7703;
+    
+}
+
+.btn-ribbon a i {
+    display: inherit;
+    padding-left: 16px;
+}
+@media only screen and (max-width: 575.98px) {
+    .promotional-ribbon .container {
+        padding: 5px 0;
+    }
+    .promotional-ribbon .container .title-ribbon{
+        line-height: 1.3;
+    }
+    .promotional-ribbon .container .title-ribbon p{
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .promotional-ribbon .container .title-ribbon strong{
+        font-size: 15px;
+    }
+    .promotional-ribbon .container .btn-ribbon{
+        margin: 5px auto;
+    }
+    .promotional-ribbon .container .btn-ribbon a{
+        padding: 6px 13px;
+    }
+    .promotional-ribbon.ribbon-secundary .container {
+        padding: 10px 0;
+    }
+    .promotional-ribbon.ribbon-secundary .title-ribbon{
+        padding: 0 5% 3% 5%;
+    }
+    .promotional-ribbon.ribbon-secundary .std-card{
+        background-size: 100% 4px, 4px 100%, 100% 4px, 4px 100%, calc(100% - 8px) calc(100% - 8px);
+        padding: 3%;
+    }
+    .promotional-ribbon.ribbon-secundary .container .btn-ribbon {
+        margin: 6px auto;
+    }
+    .promotional-ribbon.ribbon-secundary .container .btn-ribbon a {
+        padding: 8px 13px;
+    }
+    .promotional-ribbon.ribbon-secundary .container .title-ribbon p{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .promotional-ribbon .container > div {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 50%;
+                flex: 1 1 auto;
+    }
+
+    .promotional-ribbon {
+        height: auto;
+    }
+
+    .btn-ribbon { 
+        margin: 0;
+        text-align: right;
+    }
+
+    .title-ribbon {
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .promotional-ribbon.ribbon-secundary .title-ribbon{
+        padding: 1% 16px;
+    }
+    .promotional-ribbon.ribbon-secundary .std-card{
+        padding: 3%;
+    }
+}
+
+@media only screen and (min-width : 1200px) {
+    .promotional-ribbon {
+        background-image: url('../img/ribbon-l.jpg');
+    }
+
+    .title-ribbon p, .title-ribbon strong {
+        padding-left: 132px;
+    }
+
+    .btn-ribbon {
+        padding-right: 142px;
+    }
+    .promotional-ribbon.ribbon-secundary .title-ribbon{
+        padding-left: 150px;
+    }
+}
